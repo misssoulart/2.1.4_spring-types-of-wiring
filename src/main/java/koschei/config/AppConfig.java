@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
+// без изменений
 @Configuration
 @ComponentScan(basePackages = "koschei")
 public class AppConfig {
@@ -14,4 +15,12 @@ public class AppConfig {
     public static Island2 getIsland(Wood3 wood) {
         return new Island2(wood);
     }
+
+    @Bean
+    public static Egg6 getEgg6(Needle7 needle7) {
+        return new Egg6(needle7);
+    }
 }
+
+
+

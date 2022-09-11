@@ -4,10 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Needle7 extends koschei.models.Needle7 {
+public class Needle7 {
 
     @Override
     public String toString() {
-        return ", смерть Кощея на игле :( " + "";
+        return ", смерть Кощея на игле :( ";
     }
 }
